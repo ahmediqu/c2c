@@ -1,0 +1,43 @@
+@media only screen and (max-width:600px) {
+	.px-8 {
+		padding: 0rem 1.5rem !important;
+	}
+
+	/* For Mobile Device */
+	.mobile-device {
+		display: block;
+	}
+
+	.section-slider {
+		display: none;
+	}
+
+	.map-image {
+		display: none;
+	}
+
+	.post-for-mobile {
+		display: block;
+	}
+
+	.post {
+		display: none;
+	}
+
+	.ads {
+		display: none;
+	}
+
+	.category {
+		margin: 0 !important;
+	}
+
+	.footer {
+		display: none;
+	}
+
+	.mobile-footer {
+		display: block;
+	}
+
+}

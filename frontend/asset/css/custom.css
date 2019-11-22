@@ -1,0 +1,953 @@
+*{
+    margin: 0;
+    cursor: default;
+    padding: 0;
+  }
+  body{
+    background-color: #E7EDEE;
+    color: #707676;
+  }
+  html {
+      line-height: 1.71428571;
+      font-size: 14px;
+      font-family: Arial,Helvetica,sans-serif;
+  }
+  h1{
+      font-size: 1.7143rem;
+      line-height: 1.5;
+      color: #2f3432;
+      font-weight: 700;
+  }
+  h2{
+      font-size: 1.4286rem;
+      line-height: 1.4;
+      font-weight: 400;
+      color: #2f3432;
+
+  }
+  h3{
+      font-size: 1.2858rem;
+      line-height: 1.33333333;
+      font-weight: 400;
+      color: #2f3432;
+  }
+  h4{
+      font-size: 1.1429rem;
+      line-height: 1.5;
+      font-weight: 400;
+      color: #2f3432;
+
+  }
+  a{
+      text-decoration: none;
+          background: 0 0;
+  }
+  a:link:hover, a:link:focus, a:visited:hover, a:visited:focus {
+      color: #00547e;
+  }
+  ul li{
+    list-style: none;
+    padding: 0;
+    margin: 0;
+  }
+  .container-side{
+    background: #fff;
+    padding: 30px 35px;
+    width: 100%;
+    margin-top: 40px;
+    margin-bottom: 30px;
+    border-radius: 4px;
+  }
+  .container {
+    max-width: 960px;
+    height: auto;
+  }
+  .color-white{
+      color: #fff!important;
+  }
+  .color-black{
+    color: #000!important;
+  }
+  .city nav a{
+      color: #282587;
+      font-size: 14px;
+      font-weight: 500;
+
+  }
+  .divison nav a{
+      color: #282587;
+      font-size: 14px;
+      font-weight: 500;
+  }
+  /*
+   * Custom translucent site header
+   */
+
+  .site-header {
+    background-color: #19AAF8;
+    -webkit-backdrop-filter: saturate(180%) blur(20px);
+    backdrop-filter: saturate(180%) blur(20px);
+      padding: 15px 0px;
+  }
+  .site-header a {
+    color:#fff;
+    transition: ease-in-out color .15s;
+    font-size: 18px;
+  font-weight: 500;
+  }
+  .site-header a:hover {
+    color: #fff;
+    text-decoration: none;
+  }
+
+  /*
+   * Dummy devices (replace them with your own or something else entirely!)
+   */
+
+  .banner{
+      padding-top: 30px;
+  }
+  .banner img{
+      width: 100%;
+      height:150px;
+  }
+  .search{
+      padding-top:30px;
+  }
+  .catagory{
+      padding-top: 30px;
+  }
+  .catagory .col-md-3{
+      border: 1px solid #999;
+      text-align: center;
+      padding: 20px 0px;
+  }
+  .catagory .col-md-3:nth-child(2),
+  .catagory .col-md-3:nth-child(3),
+  .catagory .col-md-3:nth-child(4),
+  .catagory .col-md-3:nth-child(6),
+  .catagory .col-md-3:nth-child(7),
+  .catagory .col-md-3:nth-child(8),
+  .catagory .col-md-3:nth-child(12),
+  .catagory .col-md-3:nth-child(10),
+  .catagory .col-md-3:nth-child(11),
+  .catagory .col-md-3:nth-child(12),
+  .catagory .col-md-3:nth-child(15),
+  .catagory .col-md-3:nth-child(14),
+  .catagory .col-md-3:nth-child(16)
+  {
+      border-left: 0px;
+  }
+  .catagory .col-md-3:nth-child(10),
+  .catagory .col-md-3:nth-child(5),
+  .catagory .col-md-3:nth-child(6),
+  .catagory .col-md-3:nth-child(7),
+  .catagory .col-md-3:nth-child(8),
+  .catagory .col-md-3:nth-child(11),
+  .catagory .col-md-3:nth-child(12),
+  .catagory .col-md-3:nth-child(13),
+  .catagory .col-md-3:nth-child(14),
+  .catagory .col-md-3:nth-child(15),
+  .catagory .col-md-3:nth-child(16),
+  .catagory .col-md-3:nth-child(9){
+      border-top: 0px;
+  }
+  .catagory .col-md-3 a .fa-mobile-alt{
+      font-size: 40px;
+  }
+  .catagory .col-md-3 a p{
+      color: #282587;
+      font-size: 15px;
+      font-weight: 500;
+      margin: 0;
+      margin-top: 10px;
+  }
+  .ads{
+      padding-top: 30px;
+  }
+  .ads img{
+      width: 100%;
+      /*height: 250px;*/
+  }
+  .hero{
+      width: 100%;
+      height: auto;
+      background: #e7edee;
+      margin-top:30px;
+      padding: 30px 0px;
+  }
+  .map img{
+      width: 100%;
+      height: 300px;
+  }
+  .divison{
+      float: right;
+  }
+  .catagory a{
+      color: ;
+  }
+  /*
+   * footer
+   */
+
+   #footer {
+    padding: 60px 0;
+    text-align: left;
+    background: #19AAF8 !important;
+  }
+  #footer h5{
+    padding-left: 10px;
+      border-left: 3px solid #eeeeee;
+      padding-bottom: 6px;
+      margin-bottom: 20px;
+      color:#ffffff;
+  }
+  #footer a {
+      color: #ffffff;
+      text-decoration: none !important;
+      background-color: transparent;
+      -webkit-text-decoration-skip: objects;
+  }
+  #footer ul.social li{
+    padding: 3px 0;
+  }
+  #footer ul.social li a i {
+      margin-right: 5px;
+    font-size:25px;
+    -webkit-transition: .5s all ease;
+    -moz-transition: .5s all ease;
+    transition: .5s all ease;
+  }
+  #footer ul.social li:hover a i {
+    font-size:30px;
+    margin-top:-10px;
+  }
+  #footer ul.social li a,
+  #footer ul.quick-links li a{
+    color:#ffffff;
+  }
+  #footer ul.social li a:hover{
+    color:#eeeeee;
+  }
+  #footer ul.quick-links li{
+    padding: 3px 0;
+    -webkit-transition: .5s all ease;
+    -moz-transition: .5s all ease;
+    transition: .5s all ease;
+  }
+  #footer ul.quick-links li:hover{
+    padding: 3px 0;
+    margin-left:5px;
+    font-weight:700;
+  }
+#footer ul.quick-links li a {
+    color: #ffffff;
+    font-size: 15px;
+    margin-right: 5px;
+    font-weight: 500;
+}
+  #footer ul.quick-links li:hover a i {
+      font-weight: 700;
+  }
+
+  @media (max-width:767px){
+    #footer h5 {
+      padding-left: 0;
+      border-left: transparent;
+      padding-bottom: 0px;
+      margin-bottom: 10px;
+  }
+  .how-to-sell-fast{
+    padding: 40px 0px;
+  }
+  /*
+   * footer
+   */
+
+
+   /*
+   * Login
+   */
+
+   .login{
+      background: #fff;
+      padding: 20px 30px;
+      box-sizing: border-box;
+      margin-top: 50px;
+      margin-bottom: 50px;
+    }
+    .login-top {
+      padding: 0px 40px;
+      margin: 100px 0px 30px;
+  }
+    .login .form{
+      margin-top: 15px;
+    }
+    .login-btn{
+      padding: 12px 44%;
+      font-size: 18px;
+      font-weight: 500;
+      margin-bottom: 10px;
+    }
+    .login-text{
+      font-size: 16px;
+      color: #000;
+      font-weight: 500;
+    }
+      .login-text a{
+        color: red;
+        text-decoration: none;
+      }
+      .login-text a:hover{
+        text-decoration: none;
+      }
+      .login-forget{
+        color: red;
+        font-size: 16px;
+        font-weight: 500;
+        text-decoration: none;
+      }
+      .login-content{
+        margin-top: 40px;
+        font-size: 16px;
+        font-weight: normal;
+        line-height: 24px;
+        color: #000;
+      }
+      .login-forget:hover{
+        text-decoration: none;
+      }
+    .login .form-control{
+      padding: 20px 10px;
+      font-size: 16px;
+      margin: 10px 0px;
+    }
+    .login label{
+      font-size:17px;
+      margin-bottom: 10px;
+      text-transform: capitalize;
+    }
+   /*
+   * Login Option
+   */
+
+   /*
+   * All Ads
+   */
+
+  /*
+   * Extra utilities
+   */
+   /*
+   *  post section
+   */
+  .post-section h2{
+    padding-bottom: .5em;
+    font-weight: 400;
+    color: #2f3432;
+    margin: 24px 0 16px;
+  }
+  .post-sub-tiitle{
+      color: #2f3432;
+      font-weight: 400;
+      margin: 15px 0 15px;
+  }
+  .post-section .is-main{
+    border-bottom: solid 1px #d4ded9;
+  }
+  .post-section .post-photo{
+    width: 100%;
+    padding: 20px 15px;
+    border:1px dotted #e7edee;
+    height: auto;
+  }
+  .post-section .btn-file{
+    background: green;
+    padding: 8px 40px;
+  }
+  .post-section .post-photo .post-photo-falt-icon{
+    width: 100%;
+    text-align: center;
+    background: #e7edee;
+    border-radius: 4px;
+    padding: 50px 0px;
+  }
+  .post-section .fa-image{
+      fill: #707676;
+      font-size: 40px;
+  }
+  .post-photo-add{
+    margin: 8% 0%;
+  }
+  .post-section .post-loc-cat{
+    color: #707676;
+    font-size: 14px;
+    font-weight: 400;
+  }
+  .post-section .post-job-icon{
+    color: #009877;
+    margin-right: 7px;
+  }
+  .post-section .post-job-selected-text{
+    color: #707676;
+  }
+  .post-section a.post-job-location {
+      float: right;
+      text-decoration: none;
+      font-size: 16px;
+      font-weight: 400;
+  }
+  .post-section  a:hover.post-job-location{
+    text-decoration: none;
+  }
+  .post-section .form-part{
+    padding-bottom: 50px;
+  }
+  .post-section .form-check-label{
+    margin-right: 6px;
+  }
+  .post-section .textarea-label{
+    float: right;
+  }
+  .price-section {
+    padding-bottom: 10px;
+  }
+  .price-section .negotiable{
+    margin-left: 10px;
+  }
+  .post-cont-details .post-con-nam{
+      color: #0074ba !important;
+      line-height: 22px;
+      margin-top: 20px;
+  }
+  .post-cont-details .post-con-nam-info{
+    color: #707676!important;
+     margin-bottom: 40px;
+    line-height: 13px;
+    font-weight: 500;
+
+  }
+  .post-cont-details .post-contact-box{
+    border: solid 1px #d4ded9;
+    padding: 40px 15px;
+    border-radius: 4px;
+    margin-bottom: 20px;
+    border-bottom: 4px solid #d4ded9;
+  }
+  .post-cont-details .post-contact-box p{
+     color: #0074ba;
+  }
+  .post-cont-details a{
+    font-weight: 600;
+    color: #fff;
+  }
+  .post-cont-details .post-contact-boottom p{
+    color: #0074ba;
+     margin-top: 20px;
+  }
+  .post-cont-details .post-contact-email{
+     color: #707676!important;
+     margin-bottom: 40px;
+    line-height: 13px;
+    font-weight: 500;
+  }
+  .post-cont-details .btn-con-det{
+    padding: 10px 50px;
+  }
+  .post-cont-details .btn-con-det:hover{
+    color: #fff;
+  }
+  .post-disable-link{
+    margin-top: 50px;
+    color: #afb7ad;
+  }
+  .post-disable-link p{
+    line-height: 50px;
+  }
+
+
+  /*
+   * post item section
+   */
+  .post-item-lo-cat p{
+    margin: 60px 0px;
+    border-bottom: 1px solid #D4DED9;
+    padding-bottom: 10px;
+  }
+  .post-item-details{
+    padding-top: 50px;
+  }
+
+  /*
+   * post item section
+   */
+
+   /*
+   * ads post
+   */
+  .post-ads{
+    width: 100%;
+    height: auto;
+    background: #fff;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    border-radius: 4px;
+    padding: 20px 0px;
+  }
+  .mobile-form .post-title{
+      font-size: 20px;
+      font-weight: 500;
+      color: #000;
+      margin-bottom: 15px;
+      text-transform: uppercase;
+      border-bottom: 1px solid #0074ba;
+      border-bottom-width: 100%;
+  }
+  .mobile-form label{
+      font-size: 16px;
+      font-weight: normal;
+      margin-bottom: 10px;
+
+  }
+  .post-ads .post-title{
+      font-size: 25px;
+      line-height: 1.5;
+      font-weight: 400;
+      color: #2f3432;
+      margin: 24px 0px 55px;
+  }
+  .post-ads .box-area{
+    min-height: 19rem;
+    position: relative;
+    padding: 2.5rem 1.5rem 2rem;
+    border: solid 2px #d4ded9;
+    border-radius: 4px;
+    margin: 0px 30px;
+  }
+  .post-ads .box-title{
+    position: absolute;
+    top: 0;
+    left: 50%;
+    padding: 1rem;
+    transform: translate(-50%,-50%);
+    background: #fff;
+  }
+
+  .post-ads .box-area h3{
+        font-size: 1.2858rem;
+      line-height: 1.33333333;
+      font-weight: 400;
+      color: #2f3432;
+      margin: 24px 0 16px;
+  }
+  .post-ads .box-area .post-arrows{
+    float: right;
+  }
+
+  .post-ads .box-area .post-arrows .fa-angle-right{
+    font-size: 20px;
+  }
+  .post-ads .box-area .nav .nav-item{
+    border-top: 1px solid #e7edee;
+  }
+  .post-ads .box-area .nav .nav-item:last-child{
+    border-bottom: 1px solid #e7edee;
+  }
+  .post-ads .box-area .nav .nav-item a{
+    color: #0074ba;
+    padding: 10px 7px;
+    font-size: 15px;
+    font-weight: 400;
+  }
+  .post-ads .box-area .nav .nav-item a:active,
+  .post-ads .box-area .nav .nav-item a:link,
+  .post-ads .box-area .nav .nav-item a:visited{
+    color: #0074ba;
+    font-size: 16px;
+    font-weight: normal;
+
+  }
+  .post-ads .box-area .nav .nav-item a:hover{
+      color: #000;
+      font-size: 16px;
+  }
+  .post-ads .box-area .nav .nav-item a:hover .post-arrows{
+      transform: rotate(270deg);
+      transition:1s;
+  }
+  .post-ads .box-area .nav .nav-item  .post-arrows{
+      transition:1s;
+  }
+  hr.is-i {
+      margin: 40px 0px 0px;
+  }
+  .post-ads .post-info {
+      display: inline-block;
+      text-align: left;
+      margin-left: 20px;
+  }
+  .post-ads .post-info h3{
+        font-size: 1.2858rem;
+      line-height: 1.33333333;
+      font-weight: 400;
+      color: #2f3432;
+      margin: 24px 0 16px;
+  }
+  .post-ads .post-info p{
+        margin-top: 0;
+      margin-bottom: 1rem;
+  }
+  .post-ads .post-info a{
+        color: #0074ba;
+      text-decoration: none;
+  }
+
+   /*
+   * ads post
+   */
+
+    /*
+   * post category
+   */
+   .post-category{
+    width: 100%;
+    height: auto;
+    background: #fff;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    border-radius: 4px;
+    padding: 20px 30px;
+
+   }
+    .post-category .post-category-menu{
+      list-style: none;
+   }
+   .post-category .post-category-menu .post-arrows{
+    float: right;
+   }
+  .post-category ul.post-category-menu li{
+    list-style:none;
+    border-top: 1px solid #e7edee;
+    pointer-events:;
+    padding: 10px 7px;
+  }
+  .post-category ul.post-category-menu li:last-child{
+    border-bottom: 1px solid #e7edee;
+  }
+  .post-category ul.post-category-hiden-item li{
+    border-top: 1px solid #e7edee;
+    padding: 10px 7px;
+  }
+  .post-category ul.post-category-hiden-item li:last-child{
+    border-bottom: 1px solid #e7edee;
+  }
+  .post-category .post-category-subitem ul li{
+    list-style: none;
+  }
+  .post-category .post-category-subitem .post-arrows{
+    float: right;
+  }
+  .post-category .post-category-hiden-item{
+    display: none;
+  }
+  .post-category .post-category-mobile-item-show{
+    display: inline;
+  }
+    /*
+   * post category
+   */
+
+  /*
+   * post offer propery rent
+   */
+  .post_offer_propery_rent{
+  }
+  .post_offer_propery_rent h2{
+    color: #2f3432;
+  }
+
+  .post_offer_propery_rent .post_property_offer-nav{}
+  .post_offer_propery_rent .post_property_offer-nav ul{}
+  .post_offer_propery_rent .post_property_offer-nav ul li{
+    list-style: none;
+    border-top: 1px solid #e7edee;
+    padding: 10px 7px;
+  }
+  .post_offer_propery_rent .post_property_offer-nav ul li:last-child{
+    border-bottom: 1px solid #e7edee;
+  }
+  .post_offer_propery_rent .post_property_offer-nav ul li a{
+    font-size: 16px;
+    font-weight: 400;
+        color: #0074ba;
+        text-decoration: none;
+  }
+  .post_offer_propery_rent .post_property_offer-nav ul li a:link,
+  .post_offer_propery_rent .post_property_offer-nav ul li a:visited{
+    color: #0074ba;
+  }
+  .post_offer_propery_rent .post_property_offer-nav ul li a:hover,
+  .post_offer_propery_rent .post_property_offer-nav ul li a:focus{
+    color: #00547e;
+  }
+  .post_offer_propery_rent .post_property_offer-nav .post-arrows{
+    float: right;
+    font-size: 25px;
+    font-weight: 400;
+  }
+
+  /*
+   * post offer propery rent
+   */
+
+
+  /*
+   * post jobs
+   */
+
+  .post-job{
+  }
+  .post-job h1{
+      font-weight: 500;
+      margin: 24px 0 16px;
+  }
+  .post-job h2{
+      font-weight: 400;
+      margin-top: 20px;
+      margin: 24px 0 16px;
+  }
+
+  .post-job input{
+    padding: 7px;
+    color: #2f3432;
+    border-radius: 4px;
+    box-shadow: inset 0 3px 1px rgba(231,237,238,.5);
+    -webkit-transition: border-color ease-in-out .15s,box-shadow ease-in-out .15s;
+    transition: border-color ease-in-out .15s,box-shadow ease-in-out .15s;
+  }
+  .post-job .post-job-form{
+    margin-top: 40px;
+  }
+  .post-job-form-second{
+    margin-top: 40px;
+  }
+  .post-job .post-job-form .textarea-label{
+    float: right;
+    font-size: 14px;
+    font-weight: 400;
+    margin-bottom: 5px;
+    color: #2f3432;
+  }
+  .post-job .post-job-form  .post-job-labe{
+    color: #0074ba;
+    line-height: 1.71428571;
+    font-size: 16px;
+    font-weight: 400;
+  }
+  .post-job .post-job-form .fields-salary{
+    margin: 8px 0;
+    line-height: 1.71428571;
+    font-size: 14px;
+    color: #707676;
+  }
+  .post-job .post-job-form .fields-applicatio{
+    margin-bottom: 30px;
+    line-height: 1.71428571;
+    font-size: 15px;
+    color: #707676;
+    font-weight: 400;
+
+  }
+  .post-job .post-job-form .post-cheack{
+    font-size: 15px;
+    color: #707676;
+    font-weight: 400;
+    margin-left: 7px;
+  }
+  .post-job .post-job-form .post-cheack-section{
+    margin-bottom: 50px;
+  }
+  .post-job .post-job-form .post-job-contact h3{
+      padding-bottom: .5em;
+      border-bottom: solid 1px #d4ded9;
+      color: #2f3432;
+      margin: 24px 0 16px;
+  }
+
+
+
+  /* ads detials section */
+
+  .ads-content h1{
+      font-size: 24px;
+      font-weight: 500;
+      color: #000;
+  }
+  .ads-content p{
+      font-size: 18px;
+      font-weight: 500;
+      margin-top: 15px;
+      color: #19AAF8;
+
+  }
+  .product-details .container{
+      background: #fff;
+      padding: 50px 20px;
+  }
+  .features h3{
+      font-size: 20px;
+      font-weight: normal;
+      color: #000;
+  }
+  .edition h3{
+      font-size: 20px;
+      font-weight: normal;
+      color: #000;
+  }
+  .description h3{
+      font-size: 20px;
+      font-weight: normal;
+      color: #000;
+  }
+  .description p{
+      font-size: 18px;
+      font-weight: normal;
+      color: gray;
+  }
+  .contact h3{
+      font-size: 20px;
+      font-weight: normal;
+      color: #000;
+  }
+  .contact p{
+      font-size: 18px;
+      font-weight: normal;
+      color: gray;
+  }
+
+  /*
+   * post jobs
+   */
+
+  /* profile */
+
+  .emp-profile{
+      padding: 3%;
+      margin-top: 3%;
+      margin-bottom: 3%;
+      border-radius: 0.5rem;
+      background: #fff;
+  }
+  .profile-img{
+      text-align: center;
+  }
+  .profile-img img{
+      width: 70%;
+      height: 100%;
+  }
+  .profile-img .file {
+      position: relative;
+      overflow: hidden;
+      margin-top: -20%;
+      width: 70%;
+      border: none;
+      border-radius: 0;
+      font-size: 15px;
+      background: #212529b8;
+  }
+  .profile-img .file input {
+      position: absolute;
+      opacity: 0;
+      right: 0;
+      top: 0;
+  }
+  .profile-head h5{
+      color: #333;
+  }
+  .profile-head h6{
+      color: #0062cc;
+  }
+  .profile-edit-btn{
+      border: none;
+      border-radius: 1.5rem;
+      width: 70%;
+      padding: 2%;
+      font-weight: 600;
+      color: #6c757d;
+      cursor: pointer;
+  }
+  .proile-rating{
+      font-size: 12px;
+      color: #818182;
+      margin-top: 5%;
+  }
+  .proile-rating span{
+      color: #495057;
+      font-size: 15px;
+      font-weight: 600;
+  }
+  .profile-head .nav-tabs{
+      margin-bottom:5%;
+  }
+  .profile-head .nav-tabs .nav-link{
+      font-weight:600;
+      border: none;
+  }
+  .profile-head .nav-tabs .nav-link.active{
+      border: none;
+      border-bottom:2px solid #0062cc;
+  }
+  .profile-work{
+      padding: 14%;
+      margin-top: -15%;
+  }
+  .profile-work p{
+      font-size: 12px;
+      color: #818182;
+      font-weight: 600;
+      margin-top: 10%;
+  }
+  .profile-work a{
+      text-decoration: none;
+      color: #495057;
+      font-weight: 600;
+      font-size: 14px;
+  }
+  .profile-work ul{
+      list-style: none;
+  }
+  .profile-tab label{
+      font-weight: 600;
+  }
+  .profile-tab p{
+      font-weight: 600;
+      color: #0062cc;
+  }
+  .single-category .fas.fa-mobile-alt{
+      font-size: 26px;
+  }
+.single-category.text-center.shadow {
+    height: 130px;
+}
+   /*
+   * post Offer Property appertment flat
+   */
+
+   /*
+   * post Offer Property appertment flat
+   */
+  .photo-add{
+    margin-top: 20px;
+  }
+  .flex-equal > * {
+    -ms-flex: 1;
+    flex: 1;
+  }
+  @media (min-width: 768px) {
+    .flex-md-equal > * {
+      -ms-flex: 1;
+      flex: 1;
+    }
+  }
+
+  .overflow-hidden { overflow: hidden; }
